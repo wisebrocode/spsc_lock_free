@@ -5,6 +5,10 @@ Implement the "SPSC Lock-free, Wait-free Fifo from the Ground Up" presentation a
 ## Plan
 My plan for this repository is to use Charles Frasch's repository as a reference and implement SPSC from ground up following the interface for the queue as provided in his original repository. I will add detailed notes for each incremental improvement so its easier for a new C++ developer to follow.
 
+## Step 1
+
+Understand the initial implementation with the mutex. The detailed Notes are in Mutex.md
+
 ## Required packakges in Ubuntu 24.04 system.
     sudo apt install git
     sudo apt install cmake
